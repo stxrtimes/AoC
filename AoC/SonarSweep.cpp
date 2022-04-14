@@ -1,4 +1,4 @@
-/* SonarSweep.cpp - Source code for Day 1 of Advent of Code 2021, Sonar Sweep
+/* SonarSweep.cpp - Source code for Day 1 of Advent of Code 2021, "Sonar Sweep"
  * Written by startimes.
  * Takes a "sonar sweep" file and evaluates how many times the depth increases compared to the previous.
  */
@@ -6,14 +6,15 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include "SonarSweep.h"
 
 using namespace std;
 
 vector<int> ConvertFileToVectorInt();
 
-int Part1()
+int Day1Part1()
 {
-	ifstream input("input.txt");
+	ifstream input("day1input.txt");
 
 	int scan;
 	int prevScan = 0;
@@ -30,7 +31,7 @@ int Part1()
 	return counter;
 }
 
-int Part2()
+int Day1Part2()
 {
 	int scan = 0;
 	int prevScan = 0;
@@ -55,17 +56,16 @@ int Part2()
 	return counter;
 }
 
-int main()
+void Day1()
 {
+	cout << "Answer for part 1: " << Day1Part1() << endl;
 
-	cout << "Answer for part 1: " << Part1() << endl;
-
-	cout << "Answer for part 2: " << Part2() << endl;
+	cout << "Answer for part 2: " << Day1Part2() << endl;
 }
 
 vector<int> ConvertFileToVectorInt()
 {
-	ifstream input("input.txt");
+	ifstream input("day1input.txt");
 
 	vector<int> fileVector;
 

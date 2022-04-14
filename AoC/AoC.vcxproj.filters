@@ -18,5 +18,19 @@
     <ClCompile Include="SonarSweep.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AoC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SonarSweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

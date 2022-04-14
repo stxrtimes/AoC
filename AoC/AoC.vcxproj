@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AoC.cpp" />
+    <ClCompile Include="Dive.cpp" />
     <ClCompile Include="SonarSweep.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dive.h" />
+    <ClInclude Include="SonarSweep.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
